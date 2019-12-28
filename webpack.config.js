@@ -24,7 +24,8 @@ module.exports = {
 		alias: {
 			Main: 'app/components/Main.jsx',
 			auth: 'app/api/auth.jsx',
-			applicationStyles: 'app/styles/app.scss'
+			applicationStyles: 'app/styles/app.scss',
+			Navigation: 'app/components/Navigation.jsx'
 		},
 		// List of file extensions we should be able to process
 		extensions: ['', '.js', '.jsx']
