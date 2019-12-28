@@ -1,5 +1,1 @@
-Boilerplate React App with basic template setup for:
-
-- Foundation
-- CSS
-- Auth
+Timer application - more details to follow.
