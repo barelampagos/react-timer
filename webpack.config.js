@@ -25,7 +25,9 @@ module.exports = {
 			Main: 'app/components/Main.jsx',
 			auth: 'app/api/auth.jsx',
 			applicationStyles: 'app/styles/app.scss',
-			Navigation: 'app/components/Navigation.jsx'
+			Navigation: 'app/components/Navigation.jsx',
+			Countdown: 'app/components/Countdown.jsx',
+			Timer: 'app/components/Timer.jsx'
 		},
 		// List of file extensions we should be able to process
 		extensions: ['', '.js', '.jsx']
