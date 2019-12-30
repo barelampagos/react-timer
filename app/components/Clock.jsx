@@ -1,7 +1,13 @@
 var React = require('react');
 
 var Clock = React.createClass({
-	// Renders totalSeconds -> clock display equivalent
+	getDefaultProps: function() {
+		totalSeconds: 0;
+	},
+	propTypes: function() {
+		totalSeconds: React.PropTypes.number;
+	},
+	// Renders total: -> clock display equivalent
 	// i.e. 61 -> 1:01
 	formatSeconds: function(totalSeconds) {
 		var seconds = totalSeconds % 60;
@@ -13,7 +19,13 @@ var Clock = React.createClass({
 		return minutes + ':' + seconds;
 	},
 	render: function() {
-		return <div></div>;
+		var { totalSeconds } = this.props;
+
+		return (
+			<div className='clock'>
+				<span className='clock-text'>{this.formatSeconds(totalSeconds)}</span>
+			</div>
+		);
 	}
 });
 
