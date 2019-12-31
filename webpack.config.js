@@ -28,7 +28,8 @@ module.exports = {
 			Navigation: 'app/components/Navigation.jsx',
 			Countdown: 'app/components/Countdown.jsx',
 			Timer: 'app/components/Timer.jsx',
-			Clock: 'app/components/Clock.jsx'
+			Clock: 'app/components/Clock.jsx',
+			CountdownForm: 'app/components/CountdownForm.jsx'
 		},
 		// List of file extensions we should be able to process
 		extensions: ['', '.js', '.jsx']
